@@ -5,6 +5,7 @@
 
 
 // ### 1. Affiche le contenu textuel du second h1
+console.log(document.getElementsByTagName('h1')[1].textContent);
 // ### 2. Affiche le contenu textuel du dernier li
 // ### 3. Affiche le contenu textuel du premier p en majuscule
 // ### 4. Avec l'aide d'un forEach affiche le contenu de chaque li, bonus : affiche chaque li en majuscule
