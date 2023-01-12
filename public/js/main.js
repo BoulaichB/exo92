@@ -9,4 +9,5 @@ console.log(document.getElementsByTagName('h1')[1].textContent);
 // ### 2. Affiche le contenu textuel du dernier li
 console.log(document.getElementsByTagName('li')[document.getElementsByTagName('li').length -1].textContent);
 // ### 3. Affiche le contenu textuel du premier p en majuscule
+console.log(document.getElementsByTagName('p')[0].textContent.toUpperCase());
 // ### 4. Avec l'aide d'un forEach affiche le contenu de chaque li, bonus : affiche chaque li en majuscule
