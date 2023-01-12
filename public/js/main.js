@@ -11,3 +11,8 @@ console.log(document.getElementsByTagName('li')[document.getElementsByTagName('l
 // ### 3. Affiche le contenu textuel du premier p en majuscule
 console.log(document.getElementsByTagName('p')[0].textContent.toUpperCase());
 // ### 4. Avec l'aide d'un forEach affiche le contenu de chaque li, bonus : affiche chaque li en majuscule
+const listItems = document.querySelectorAll('li');
+console.log(listItems);
+listItems.forEach(element => {
+    console.log(element.textContent.toUpperCase());
+});
